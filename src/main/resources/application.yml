@@ -1,0 +1,12 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    password: 270907
+    url: jdbc:postgresql://localhost:5432/homework
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
